@@ -6,7 +6,7 @@ Nice!
 # Docker version
 
 Copy your service account key into assets/service-account.json (needed for Google cloud storage uploads). 
-Define your bucket and Earth Engine assets id in Dockerfile adn evironmental variable. 
+Define your bucket and Earth Engine assets id in Dockerfile as evironmental variables. 
 
 Build: 
 docker build . -t solid
