@@ -1,4 +1,4 @@
-FROM jupyter/minimal-notebook
+FROM jupyter/minimal-notebook:python-3.8.8
 
 
 USER root
@@ -37,6 +37,14 @@ RUN mamba install folium
 
 # install solid
 RUN python -m pip install git+https://github.com/BrandonSmithJ/MDN
+#RUN pip install tensorflow
+#RUN pip install tensorflow-transform
+RUN pip install tensorflow_datasets
+
+# install debuger 
+#RUN jupyter labextension install @jupyterlab/debugger
+#RUN mamba install xeus-python jupyterlab -c conda-forge
+
 
 ENV PATH $HOME/google-cloud-sdk/bin:$PATH
 ENV MPLCONFIGDIR ./
