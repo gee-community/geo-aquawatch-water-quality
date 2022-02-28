@@ -3,7 +3,7 @@ Code produced for the GEE-GEO Aquawatch project.
 Nice!
 
 
-# Docker version
+# Docker version (solid)
 
 Copy your service account key into assets/service-account.json (needed for Google cloud storage uploads). 
 Define your bucket and Earth Engine assets id in Dockerfile as evironmental variables. 
