@@ -10,7 +10,7 @@ All the work here should be considered in development. Use at your own risk.
 
 ## Contents
 
-This repository's folders are organized around:
+This repository's folders are currently organized around:
 - [Atmospheric corrections](https://github.com/Nateme16/geo-aquawatch-water-quality/tree/main/Atmospheric%20corrections) for aquatic applications 
 - [Water quality algorithms](https://github.com/Nateme16/geo-aquawatch-water-quality/tree/main/WQ%20algorithms)
 
